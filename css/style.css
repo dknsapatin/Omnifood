@@ -75,14 +75,22 @@ body {
 /* ************************** */
 /* GENERAL USEABLE COMPONENTS */
 /* ************************** */
-.heading-primary {
-  font-size: 5.2rem;
+.heading-primary,
+.heading-secondary {
   font-weight: 700;
-  line-height: 1.05;
   color: #333;
   letter-spacing: -0.5px;
-  margin-bottom: 3.2rem;
 }
+.heading-primary {
+  font-size: 5.2rem;
+  margin-bottom: 3.2rem;
+  line-height: 1.05;
+}
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+}
+
 /* "Start eating well & Learn more" Button */
 .btn:link,
 .btn:visited {
@@ -120,6 +128,29 @@ body {
 /* Helper */
 .margin-right-sm {
   margin-right: 1.6rem !important;
+}
+
+/* ************************** */
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
 }
 
 /* ************************** */
@@ -231,4 +262,15 @@ body {
 }
 .delivered-text span {
   color: #cf711f;
+}
+
+/* ************************** */
+/* HOW IT WORKS SECTION */
+/* ************************** */
+
+.section-how {
+  padding: 9.6rem 0;
+}
+.step-img {
+  width: 50%;
 }
