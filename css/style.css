@@ -360,6 +360,12 @@
   text-align: center;
   margin-top: 1.8rem;
 }
+.plan-details {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
 .pricing-plan {
   border-radius: 11px;
   width: 75%;
@@ -390,4 +396,25 @@
   padding: 0.8rem 8rem;
 
   transform: rotate(45deg);
+}
+
+.feature-icon {
+  color: #e67e22;
+  height: 2.4rem;
+  width: 2.4rem;
+  margin-bottom: 3.2rem;
+
+  background-color: #fae5d3;
+  padding: 1.6rem;
+  border-radius: 100%;
+}
+.feature-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1.6rem;
+}
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
 }
