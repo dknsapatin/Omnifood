@@ -501,3 +501,24 @@
 .footer {
   padding: 9.6rem 0;
 }
+.footer-heading {
+  font-size: 1.8rem;
+  margin-bottom: 4rem;
+}
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 2.4rem;
+}
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  color: #767676;
+  font-size: 1.6rem;
+  transition: all 0.3s;
+}
+.footer-link:hover,
+.footer-link:active {
+  color: #555;
+}
