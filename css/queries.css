@@ -102,10 +102,12 @@
   /* ---------------Navigation menu------------- */
   .btn-mobile-nav {
     display: block;
-    cursor: pointer;
+    z-index: 9999;
   }
   .main-nav {
     background-color: #fffffff1;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
     position: absolute;
     top: 0;
     left: 0;
@@ -134,6 +136,7 @@
     opacity: 1;
     pointer-events: auto;
     visibility: visible;
+    transform: translateX(0);
   }
 
   .nav-open .icon-mobile-nav[name="close-outline"] {
@@ -196,7 +199,7 @@
   .grid--2-cols,
   .grid--3-cols,
   .grid--4-cols {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 1fr;
   }
   .section-hero {
     padding: 2.4rem 0 6.4rem 0;
