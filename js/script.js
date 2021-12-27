@@ -31,7 +31,7 @@ allLinks.forEach(function (link) {
       sectionEl.scrollIntoView({ behavior: "smooth" });
     }
 
-    // Close mobile navigation
+    // Close mobile naviagtion
     if (link.classList.contains("main-nav-link"))
       headerEl.classList.toggle("nav-open");
   });
